@@ -1,0 +1,10 @@
+.input-container {
+	display: flex;
+	border: 2px solid var(--border);
+	border-radius: var(--rounded-sm);
+	accent-color: var(--theme-secondary);
+	background-color: var(--bg-input);
+	color: var(--text);
+	font-size: var(--fonts-sm);
+	outline: none;
+}
