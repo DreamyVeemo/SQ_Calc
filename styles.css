@@ -40,7 +40,7 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-	color: #aaa; /* lighter placeholder text */
+	color: #1b1a35; /* lighter placeholder text */
 	font-family: 'Lexend', sans-serif;
 }
 
