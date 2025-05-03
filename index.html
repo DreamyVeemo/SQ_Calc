@@ -123,7 +123,7 @@
 		<h1>Insert Match Link!</h1>
 		<div class="input-container">
 			<input type="text" id="linkInput" placeholder="https://sendou.ink/q/match/00000" />
-			<button class="submit-button">Submit</button>
+			<button id="submitButton" class="submit-button">Submit</button>
 		</div>
 		<p>Change detector: 5:59</p>
 		<p>Line 2</p>
@@ -131,5 +131,17 @@
 	<footer>
 		<p>DreamyVeemo · Hosted on GitHub Pages</p>
 	</footer>
+
+	<!-- ✅ Button Script -->
+	<script>
+		document.getElementById("submitButton").addEventListener("click", function () {
+			const input = document.getElementById("linkInput").value;
+			if (input.trim() === "") {
+				alert("Please enter a match link.");
+			} else {
+				alert("You entered: " + input);
+			}
+		});
+	</script>
 </body>
 </html>
