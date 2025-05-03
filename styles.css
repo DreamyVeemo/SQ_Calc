@@ -33,6 +33,8 @@ input[type="text"] {
 	border-radius: 6px;
 	outline: none;
 	width: 300px;
+	margin-bottom: 1rem;
+	box-shadow: none;  
 }
 
 input[type="text"]::placeholder {
