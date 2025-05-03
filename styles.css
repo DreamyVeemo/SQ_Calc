@@ -33,8 +33,10 @@ input[type="text"] {
 	border-radius: 6px;
 	outline: none;
 	width: 300px;
-	margin-bottom: 1rem;
-	box-shadow: none;  
+	box-shadow: none;        /* removes browser shadow (Chrome/Safari) */
+	-webkit-appearance: none; /* removes native style (Safari) */
+	-moz-appearance: none;    /* removes native style (Firefox) */
+	appearance: none;         /* removes native style (general) */
 }
 
 input[type="text"]::placeholder {
