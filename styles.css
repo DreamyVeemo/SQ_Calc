@@ -1,16 +1,16 @@
 /* styles.css */
 :root {
 	--theme: #0366d6;
-	--button-text: white;
+	--button-text: #1b1a35;
 	--rounded-sm: 6px;
 	--fonts-sm: 1rem;
 	--bold: 600;
 	--s-1-5: 0.5rem;
 	--s-2-5: 1rem;
-	--border: #ccc;
-	--bg-input: #fff;
+	--border: #32314a;
+	--bg-input: #1b1a35;
 	--text: #333;
-	--theme-secondary: #999;
+	--theme-secondary: #13e046;
 }
 
 .button {
