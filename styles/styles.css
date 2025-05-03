@@ -1,0 +1,30 @@
+/* styles.css */
+:root {
+	--theme: #0366d6;
+	--button-text: white;
+	--rounded-sm: 6px;
+	--fonts-sm: 1rem;
+	--bold: 600;
+	--s-1-5: 0.5rem;
+	--s-2-5: 1rem;
+}
+
+.button {
+	display: flex;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid var(--theme);
+	border-radius: var(--rounded-sm);
+	appearance: none;
+	background: var(--theme);
+	color: var(--button-text);
+	cursor: pointer;
+	font-size: var(--fonts-sm);
+	font-weight: var(--bold);
+	line-height: 1.2;
+	outline-offset: 2px;
+	padding-block: var(--s-1-5);
+	padding-inline: var(--s-2-5);
+	user-select: none;
+}
