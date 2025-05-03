@@ -7,8 +7,8 @@
 	<title>SendouQ Point Calculator</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap" rel="stylesheet">
 
 	<style>
 		body {
@@ -38,6 +38,34 @@
 			padding: 1rem;
 			font-size: 0.9rem;
 		}
+
+		/* Styling for the input */
+		input[type="text"] {
+			background-color: transparent;
+			border: 2px solid #555;
+			color: white;
+			font-family: 'Lexend', sans-serif;
+			font-size: 1rem;
+			padding: 0.5rem 1rem;
+			border-radius: 6px;
+			outline: none;
+			width: 300px;
+			margin-bottom: 1rem;
+		}
+
+		input[type="text"]::placeholder {
+			color: #aaa;
+			font-family: 'Lexend', sans-serif;
+		}
+
+		/* Additional styling for spacing */
+		.input-container {
+			margin-bottom: 1rem;
+		}
+
+		p {
+			margin: 0.5rem 0;
+		}
 	</style>
 </head>
 <body>
@@ -46,14 +74,12 @@
 	</header>
 	<main>
 		<h1>Insert Match Link!</h1>
-	
 		<div class="input-container">
 			<input type="text" id="linkInput" placeholder="https://sendou.ink/q/match/00000" />
 		</div>
-	
 		<p>Change detector: 4:52</p>
 		<p>Line 2</p>
-	</main>	
+	</main>
 	<footer>
 		<p>DreamyVeemo · Hosted on GitHub Pages</p>
 	</footer>
